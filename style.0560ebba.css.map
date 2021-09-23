@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAEA,OACE,kBACF,CAEA,OACE,kBACF","file":"style.0560ebba.css","sourceRoot":"..\\src","sourcesContent":["/* styles go here */\n\n.input {\n  margin-bottom: 20px;\n}\n\n.block {\n  margin-bottom: 10px;\n}\n"]}
