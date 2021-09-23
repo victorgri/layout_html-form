@@ -13,80 +13,102 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
-      <fieldset class="otstup">
+      <fieldset class="input">
         <legend>Personal information</legend>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="surname">Surname:</label>
-          <input type="text" name="surname"
-        autocomplete="off"
-        id="surname">
+          <input
+          type="text"
+          name="surname"
+          autocomplete="off"
+          id="surname">
         </div>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="name">Name:</label>
-          <input type="text" name="name"
+          <input
+          type="text"
+          name="name"
           autocomplete="off"
           id="name">
         </div>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="old">How old are You?</label>
-          <input type="number" min="12"
+          <input
+          type="number"
+          min="12"
           max="100"
           value="12"
           id="old">
         </div>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="date">Full date of birth:</label>
-          <input type="date" name="date"
+          <input
+          type="date"
+          name="date"
           id="date">
         </div>
         <div class="formfield">
           <label for="terms">
             I accept the term of the agreement
           </label>
-          <input type="checkbox" name="checkbox"
+          <input
+          type="checkbox"
+          name="checkbox"
           id="terms">
         </div>
       </fieldset>
-      <fieldset class="otstup">
+      <fieldset class="input">
         <legend>Registration</legend>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="mail">E-mail:</label>
-          <input type="email" name="email"
+          <input
+          type="email"
+          name="email"
           placeholder="email@example.com"
           id="mail">
         </div>
         <div class="formfield">
           <label for="pass">Password:</label>
-          <input type="password" name="password"
+          <input
+          type="password"
+          name="password"
           id="pass">
         </div>
       </fieldset>
-      <fieldset class="otstup">
+      <fieldset class="input">
         <legend>An interesting fact about you!</legend>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           Do you love cats?
           <label for="y">
-            <input type="radio" name="love"
+            <input
+            type="radio"
+            name="love"
             value="y"
             id="y">
             Yes
           </label>
           <label for="n">
-            <input type="radio" name="love"
+            <input
+            type="radio"
+            name="love"
             value="n"
             id="n">
             No
           </label>
         </div>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="color">What is your favorite color?</label>
-          <input type="color" id="color">
+          <input
+          type="color"
+          id="color">
         </div>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="time">What time do you go to bed?</label>
-          <input type="time" id="time">
+          <input
+          type="time"
+          id="time">
         </div>
-        <div  class="formfield otstup2">
+        <div  class="formfield block">
           <label for="cars">What are your favorite brand of cars?</label>
           <select name="car" id="cars"
           multiple>
@@ -97,18 +119,22 @@
         </div>
         <div class="formfield">
           <label for="rang">How do you rate our work?</label>
-          <input type="range" id="rang"
+          <input
+          type="range"
+          id="rang"
           name="rang"
           value="min"
           min="1"
           max="10">
         </div>
       </fieldset>
-      <fieldset class="otstup">
+      <fieldset class="input">
         <legend>Additional info</legend>
-        <div class="formfield otstup2">
+        <div class="formfield block">
           <label for="com">Comments:</label>
-          <textarea name="Comments" id="com"
+          <textarea
+          name="Comments"
+          id="com"
           cols="15"
           rows="2">
           </textarea>
